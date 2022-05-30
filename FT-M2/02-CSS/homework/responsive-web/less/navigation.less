@@ -1,1 +1,26 @@
 // Código de Nav acá
+nav {        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: @nav-bg;
+    h2 {
+        margin: 2rem 0rem;
+    }
+    ul {
+        display: flex;
+        font-size: 16px;
+        font-weight: 900;
+        color: rgb(106, 106, 106);
+        margin-bottom: 20px;
+        li {
+            margin-left: 30px;   
+            cursor: pointer;
+
+            &:hover {
+                color: @ebony-clay;
+            } 
+        }
+    }
+    border-bottom: 2px solid @nav-border;
+}

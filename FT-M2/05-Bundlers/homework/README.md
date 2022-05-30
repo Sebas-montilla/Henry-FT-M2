@@ -6,6 +6,7 @@
 
 Antes de que vayamos mucho mas, es importante entender el concepto de expresiones de funciones invocadas inmediatamente en Javascript (aka "IIFE"s).
 
+
 Primero, nota que cualquier "expresión" en Javascript puede ser escrita dentro de paréntesis para asegurarte que sea evaluada como un todo. Un caso de uso muy común de esto es especificar el orden de operaciones cuando hacemos matemática simple:   
 
 ```js

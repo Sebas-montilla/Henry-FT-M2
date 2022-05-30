@@ -12,6 +12,7 @@ export default function Cards({cities, onClose}) {
           min={c.min}
           name={c.name}
           img={c.img}
+          id={c.id}
           onClose={() => onClose(c.id)}
         /> )}
     </div>
